@@ -2,8 +2,8 @@ export const exerciseOptions = {
   method: "GET",
   url: 'https://exercisedb.p.rapidapi.com/exercises/bodyPartList',
   headers: {
-    'X-RapidAPI-Key': '6944c80142mshde3af23e3b9b164p1534f6jsncf077e015190',
-    'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
+    'X-RapidAPI-Key': 'f4cb482f2bmsh859799601319d9cp1d47dajsn35cfb2ccb232',
+    'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
   },
 };
 
@@ -16,7 +16,7 @@ export const youtubeOptions = {
 
   headers: {
     'X-RapidAPI-Host': 'youtube-search-and-download.p.rapidapi.com',
-    'X-RapidAPI-Key': '6944c80142mshde3af23e3b9b164p1534f6jsncf077e015190',
+    'X-RapidAPI-Key': 'f4cb482f2bmsh859799601319d9cp1d47dajsn35cfb2ccb232',
   },
 };
 

@@ -18,8 +18,12 @@ const Navbar = () => (
     >
       <Link to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Home</Link>
       <a href="#exercises" style={{ textDecoration: 'none', color: '#3A1212' }}>Exercises</a>
-      <a href='' style={{ textDecoration:'none', color:'#3A1212'}}> Specials </a>
-      <a href='' style={{ textDecoration:'none', color:'#3A1212' }}>Login</a>
+
+      {/* <Link to="/src/components/specials.js" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Specials</Link> */}
+
+      <Link to="/src/components/login.js" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Login</Link>
+      
+      <Link to="/src/components/register.js" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>SignUp</Link>
 
     </Stack>
   </Stack>
