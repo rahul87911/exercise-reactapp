@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# FitNation India:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p float="left">
+  <img src="img/frontimg.jpg" width="500" />
+  <img src="img/search.jpg" width="500" /> 
+  <img src="img/cardsimg.jpg" width="500" /> 
+  <img src="img/details.jpg" width="500" /> 
+  <img src="img/videos.jpg" width="500" /> 
+   <img src="img/loginimg.jpg" width="500" /> 
+    <img src="img/signup.jpg" width="500" /> 
+</p>
 
-## Available Scripts
+- Build a webapp to facilitate a fitness enthusiast and aid him in attaining different kinds of fitness goals ,by giving him quality knowledge
+about different biophysical movements in exercises targeting different muscles.
+- Above are the snaps of :(Homepage, Searchbar, Exercise Card, Details Page, Videos Page, Login & Signup Forms)
+- It covers explanation of more than 500 biophysical movements.
+- Frontend of this app is built on `React js` using the languages `HTML,CSS,JAVASCRIPT`.
+- It fetches the data from `Rapid API`.
 
-In the project directory, you can run:
+# Functionalities
 
-### `npm start`
+- The `Homepage` welcomes you with the motivational quote and the banner of creater.It has four button in navbar `HOME`, `EXERCISES` , `LOGIN`, `SIGNUP`.
+-`HOME` will redirect you to homepage, as we scroll down we see a `SEARCHBAR` where we can search our desired muscle group ,below which we get different `CARDS` of exercises.
+- After clicking onthe `CARD` it will redirect us to the details page which will gives us the details related to the exercise  ,alongwith supporting gifs and videos recommendations.
+- After clicking on video link it will redirect us to the video page.
+- In the navbar as we click on the `LOGIN` it will open the loginform for us.
+- As we clickon `SIGNUP` it will load the signup form for us.
+- 80% of app is written in Javascript.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## API Reference
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- API is fetched through `fetchdata.js` under `utils` folder in `src` , the method we used to fetch API is mentioned below:
+#### Get all items
 
-### `npm test`
+```http
+  GET /api/items
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
 
-### `npm run build`
+#### Get item
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```http
+  GET /api/items/${id}
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# Live Preview
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![](img/front.gif)
+![](img/forms.gif)
+![](img/utube.gif)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# credits
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- RAHUL MISHRA (https://github.com/rahul87911)
+- Thank You for visiting here.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
