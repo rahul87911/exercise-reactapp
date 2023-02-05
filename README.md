@@ -59,7 +59,7 @@ about different biophysical movements in exercises targeting different muscles.
 
 # credits
 
-- RAHUL MISHRA (https://github.com/rahul87911)
+- <a href="https://github.com/rahul87911">RAHUL MISHRA</a> 
 - Thank You for visiting here.
 
 
